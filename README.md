@@ -7,17 +7,17 @@ reported in:
 figure-ground segregation"
 
 ## Contents
-- `code/stimuli/`: stimulus generation scripts
-- `code/training/`: CNN training scripts
+- `code/makeStim/`: stimulus generation
+- `code/makeStim 256/`: stimulus generation for 256 groups of fragmentation
 - `code/evaluation/`: performance and statistical analyses
 - `code/visualization/`: Grad-CAM analysis
 - `figures/`: figures included in the manuscript
 
 ## Reproducing the Results
 1. Generate stimuli:
-   - Run `generate_rectangles.m`
+   - Run `makeStim.m` to obtain the training set and testing set (adjust parameter)
 2. Train networks:
-   - Run scripts in `code/training/`
+   - Run `BOnet.m` to train the desired network
 3. Evaluate fragmentation and generalization:
    - Run scripts in `code/evaluation/`
 4. Generate Grad-CAM visualizations:
