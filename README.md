@@ -3,8 +3,8 @@
 This repository contains MATLAB code to reproduce the experiments and analyses
 reported in:
 
-"Approaching human visual perception through AI-based representation of
-figure-ground segregation"
+["Approaching human visual perception through AI-based representation of
+figure-ground segregation"](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1768533/full)
 
 ## Contents
 - `code/makeStim.m/`: stimulus generation
